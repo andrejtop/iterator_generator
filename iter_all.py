@@ -18,7 +18,7 @@ class FlatIterator:
                 self.stack.pop()
         raise StopIteration
 
-def test_3():
+def test_4():
 
     list_of_lists_2 = [
         [['a'], ['b', 'c']],
@@ -37,4 +37,4 @@ def test_3():
 
 
 if __name__ == '__main__':
-    test_3()
+    test_4()
